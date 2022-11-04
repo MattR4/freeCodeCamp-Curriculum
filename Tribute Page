@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" contect="width=device-width, initial-scale=1">
+    </head> 
+    <main id="main">
+
+      <title id="title"><h1>Doris "Dorie" Miller</h1></title>
+      <div id="img-div"><img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dorie_Miller_-_Restoration%2C_full.jpg/1024px-Dorie_Miller_-_Restoration%2C_full.jpg">
+      <div id="img-caption">
+        Doris Miller wearing the Navy Cross
+        </div>
+        </div>
+        <p id="tribute-info"> Text</p>
+        <a id="tribute-link"href="https://en.wikipedia.org/wiki/Doris_Miller" target=_blank>More on Doris Miller</a>
+          </main>
+        </html>
