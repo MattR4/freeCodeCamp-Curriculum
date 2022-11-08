@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="./styles.css">
+			<meta charset="UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+			<nav id="navbar">
+				<header>Introduction to Python</header>
+				<ul>
+					<li>
+						<a class="nav-link" href="#Introduction">Introduction</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#Welcome_to_Python">Welcome to Python</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#Hello_World">Hello World</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#Python_Syntax">Python Syntax</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#If_and_elif">If and elif</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#Booleans">Booleans</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#Python_Data_Types">Python Data Types</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#Reference">Reference</a>
+					</li>
+				</ul>
+			</nav>
+			<main id="main-doc">
+				<section id="Introduction" class="main-section">
+					<header>Introduction</header>
+					<div id="intro-div">
+						<p class="intro">Python is a popular and in-demand programming language. It was created by Guido van Rossum, and released in 1991. It is used for web development (server-side), software development, mathematics, and system scripting. Some other uses for Python include creating web applications on a server, connecting to database systems, and reading and modifying files. Python can also be used to handle large amounts of data and perform complex mathematics, for rapid prototyping, or for production-ready software development.</p>
+						<p>Some reasons to use Python over other languages:</p>
+						<ul>
+							<li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</li>
+							<li>Python has a simple syntax similar to the English language.</li>
+							<li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li>
+							<li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li>
+							<li>Python can be treated in a procedural way, an object-oriented way or a functional way.
+  </li>
+						</div>
+					</section>
+					<section id="Welcome_to_Python" class="main-section">
+						<header>Welcome to Python</header>
+						<p class="welcome">Many PCs and Macs will have python already installed.</p>
+						<p>To check if you have python installed on a Windows PC, search in the start bar for Python or run the following on the Command Line (cmd.exe):</p>
+						<div class="example-1">
+							<p>
+								<code>C:\Users\Your Name>python --version</code>
+							</p>
+						</div>
+						<p>To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal and type:</p>
+						<div class="example">
+							<p>
+								<code>python --version</code>
+							</p>
+						</div>
+						<p>If you find that you do not have Python installed on your computer, then you can download it for free from the following website: <a href="https://www.python.org/">https://www.python.org/</a>
+						</p>
+					</section>
+					<section id="Hello_World" class="main-section">
+						<header>Hello World</header>
+					</p>Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.</p>
+				<p>The way to run a python file is like this on the command line:</p>
+				<div class="example">
+					<p>
+						<code>C:\Users\Your Name>python helloworld.py</code>
+					</p>
+				</div>
+				<p>Where "helloworld.py" is the name of your python file.</p>
+				<p>Let's write our first Python file, called helloworld.py, which can be done in any text editor.</p>
+				<div class="example">
+					<p>
+						<code>print("Hello, World!")</code>
+					</p>
+				</div>
+				<p>Simple as that. Save your file. Open your command line, navigate to the directory where you saved your file, and run:</p>
+				<div class="example">
+					<p>
+						<code>C:\Users\Your Name>python helloworld.py</code>
+					</p>
+				</div>
+				<p>The output should read:</p>
+				<p>Hello, World!</p>
+				<p>Congratulations, you have written and executed your first Python program.</p>
+			</section>
+			<section id="Python_Syntax" class="main-section"/>
+			<header>Python Syntax</header>
+			<p>As we just learned in the previous page, Python syntax can be executed by writing directly in the Command Line:</p>
+			<br>
+				<p>
+					<code>>>> print("Hello, World!")</code>
+				</p>
+				<p>Hello, World!</p>
+				<br>
+					<p>Indentation refers to the spaces at the beginning of a code line. Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important. Python uses indentation to indicate a block of code.</p>
+					<section id="If_and_elif" class="main-section">
+						<header>If and elif</header>
+						<p>Python supports the usual logical conditions from mathematics:</p>
+						<ul>
+							<li>Equals: a == b</li>
+							<li>Not Equals: a != b</li>
+							<li>Less than: a < b< li>
+								<li>Less than or equal to: a <= b< li>
+									<li>Greater than: a > b</li>
+									<li>Greater than or equal to: a >= b</li>
+								</ul>
+								<p>These conditions can be used in several ways, most commonly in "if statements" and loops.</p>
+								<p>An "if statement" is written by using the if keyword.</p>
+								<h1>Example</h1>
+								<p>If statement:</p>
+								<div class="example">
+									<p>
+										<code>a = 33
+b = 200
+if b > a:
+print("b is greater than a")
+</code>
+									</p>
+								</div>
+							</section>
+							<section id="Booleans" class="main-section"/>
+							<header>Booleans</header>
+							<p>In programming you often need to know if an expression is True or False.</p>
+							<p>You can evaluate any expression in Python, and get one of two answers, True or False.</p>
+							<p>When you compare two values, the expression is evaluated and Python returns the Boolean answer:</p>
+							<h1>Example</h1>
+							<div class="example">
+								<p>
+									<code>print(10 > 9)
+print(10 == 9)
+print(10 < 9)</p></code>
+							</div>
+							<p>When you run a condition in an if statement, Python returns True or False:</p>
+							<h1>Example</h1>
+							<p>Print a message based on whether the condition is True or False:
+</p>
+							<div class="example">
+								<p>
+									<code>a = 200
+                        b = 33
+                        if b > a:
+                      print("b is greater than a")
+										  else:
+										  print("b is not greater than a")</p></code>
+								</div>
+								<section id="Python_Data_Types" class="main-section">
+									<header>Python Data Types</header>
+									<p>In programming, data type is an important concept.</p>
+									<p>Variables can store data of different types, and different types can do different things. Python has the following data types built-in by default, in these categories:</p>
+									<ul>
+										<li>Text Type:	str</li>
+										<li>Numeric Types:	int, float, complex</li>
+										<li>Sequence Types:	list, tuple, range</li>
+										<li>Mapping Type:	dict</li>
+										<li>Set Types:	set, frozenset</li>
+										<li>Boolean Type:	bool</li>
+										<li>Binary Types:	bytes, bytearray, memoryview</li>
+										<li>None Type:	NoneType</li>
+									</ul>
+									<p>You can get the data type of any object by using the type() function:</p>
+									<h1>Example</h1>
+									<p>Print the data type of the variable x:</p>
+									<div class="example">
+										<p>
+											<code>x = 5
+                        print(type(x))</code></p>
+									</div>
+								</section>
+								<section id="Reference" class="main-section">
+									<header>Reference</header>
+									<p>Information is from <a href="https://www.w3schools.com/python/python_datatypes.asp">w3schools</a>
+									</p>
+								</section>
+							</main>
+						</html>
