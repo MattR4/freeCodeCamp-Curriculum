@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" id="dark-mode" rel="stylesheet" href="">
+			<head>
+				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+					<link rel="stylesheet" href="styles.css">
+  </head>
+					<body>
+						<div id="wrapper">
+							<header id="header">
+								<img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Anker_logo.svg/995px-Anker_logo.svg.png?20190903061751" alt="anker_logo">
+									<nav id="nav-bar">
+										<ul>
+											<li>
+												<a class="nav-link" href="#overview">Products</a>
+											</li>
+											<li>
+												<a class="nav-link" href="#how-it-works">How It Works</a>
+											</li>
+											<li>
+												<a class="nav-link" href="#products">Features</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</header>
+							<div class="container" id="overview">
+								<section id="hero">
+									<h2>Charge Fast, Live More.</h2>
+									<form id="form" action="https://www.freecodecamp.com/email-submit">
+										<input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+											<input id="submit" type="submit" value="Get Started" class="btn">
+        </form>
+										</section>
+									</div>
+									<section id="products">
+										<div class="grid">
+											<div class="icon">
+												<i class="fa fa-3x fa-battery-full"/></i>
+											</div>
+											<div class="desc">
+												<h2>Chargers</h2>
+												<p>
+                Our cutting edge chargers have changed the market. PowerIQ detects your devices and adjusts voltage output accordingly, delivering a tailored, optimized charge. Simultaneous Charging: Charge any 2 devices at the same time; phones, tablets, headphones, portable chargers, and more.
+              </p>
+											</div>
+										</div>
+										<div class="grid">
+											<div class="icon">
+												<i class="fa fa-3x fa-power-off" aria-hidden="true"></i>
+											</div>
+											<div class="desc">
+												</div>
+												<h2>Power Banks</h2>
+												<p>
+                Anker's Portable Charger, One of The Smallest and Lightest 10000mAh Power Banks, Ultra-Compact Battery Pack, High-Speed Charging Technology Phone Charger for iPhone, Samsung and More.
+              </p>
+											</div>
+										</div>
+										<div class="grid">
+											<div class="icon">
+												<i class="fa fa-3x fa-bolt" aria-hidden="true"/></i>
+											</div>
+											<div class="desc">
+												<h2>Cables</h2>
+												<p>
+                Strengthened Construction: The charging cable built with bulletproof aramid fiber, PowerLine is much stronger than ordinary cables. Lasts 10x Longer: Reinforced stress points with a 5000+ bend lifespan make PowerLine many times more durable than anything else on the market.
+              </p>
+							<br>
+							</br>
+											</div>
+										</div>
+									</section>
+									<section id="how-it-works">
+										<iframe id="video" width="400" height="300" src="https://www.youtube.com/embed/-Iq95JJz_ms" title="Anker PowerCore Slim 10000 PD Unboxing and Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+										</iframe>
+									</section>
+									<section id="products">
+										<div class="product" id="tenor">
+											<div class="level">757 Powerhouse</div>
+											<h2>$1,399.99</h2>
+											<ol>
+												<li>6× Longer-Lasting: Rated to provide 3,000 battery cycles with premium LPF (LiFePO4) batteries and extends the battery lifespan by 6× more than the standard lithium-iron batteries, so you're always ready for any adventure.
+</li>
+												<li>Unprecedented 10-Year Lifespan: Instead of 2 years, 757 Portable Power Station lets you power your devices everyday for 10 years. It also comes with an exclusive 5-year full device warranty for a guaranteed, worry-free experience.</li>
+											</ol>
+											<button class="btn">Select</button>
+										</div>
+										<div class="product" id="bass">
+											<div class="level">Anker 735 Charger (GaNPrime 65W)</div>
+											<h2>$59.99</h2>
+											<ol>
+												<li>Power 3 Devices at Once: With 2 USB-C ports and one USB-A port, you can charge your phone, notebook, and earbuds all at once from a single charger. Connect a single device to charge at up to 65W.</li>
+												<li>Charge Up to 30 Minutes Faster: Our exclusive PowerIQ 4.0 technology features Dynamic Power Distribution, which detects the power needs of connected devices and adjusts power automatically to ensure faster, more efficient charging.</li>
+												<li>Greener with GaN: If every household in the US used our GaNPrime™ products in place of non-GaNPrime™ products, the amount of power saved could be up to 796.39 million kWh per year—that's enough energy to power Hawaii for a full month.</li>
+											</ol>
+											<button class="btn">Select</button>
+										</div>
+										<div class="product" id="valve">
+											<div class="level">Anker 511 Charger (Nano 3, 30W)</div>
+											<h2>$22.99</h2>
+											<ol>
+												<li>Small Yet Powerful: By swapping out silicon for GaN we've been able to fit 30W of power into a charger that's just 1.12 inches thick, and 70% smaller than an original 30W charger.</li>
+												<li>Nano Now Charges Everything: Upgraded with a 30W output so now you can charge your earbuds, phone, tablet, and even your MacBook Air with a tiny charger.
+</li>
+												<li>High-Speed Charging: Deliver full-speed 30W charging for iPhone 13 Pro and Pro Max, or power up your iPad Air (5th Generation) to 50% in just 45 minutes. Also supports Samsung Super Fast Charging (25W).</li>
+											</ol>
+											<button class="btn">Select</button>
+										</div>
+									</section>
+									<footer>
+										<ul>
+											<li>
+												<a href="#">Privacy</a>
+											</li>
+											<li>
+												<a href="#">Terms</a>
+											</li>
+											<li>
+												<a href="#">Contact</a>
+											</li>
+										</ul>
+										<span>© 2022 Fantasia Trading LLC</span>
+									</footer>
+								</div>
+							</div>
+						</body>
+					</html>
+          
+          
+          
+          
+
+** end of undefined **
+
+** start of undefined **
+
+          
+          
+          
+          * {
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+}
+
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#header-img {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    max-width: 300px;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    z-index: 1000;
+    opacity: 0.6;
+    
+}
+
+
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+nav {
+    display: flex;
+    width: 200px;
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    color: white;
+    text-align: right;
+    font-size: 50px;
+    height: 70px;
+    line-height: 70px;
+    background:
+}
+        
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  z-index: 1;
+}
+        
+nav ul li {
+    display: inline-block;
+    padding: 10px 50px 0px 50px;
+    min-width: max-content;
+    font-size: 50%;
+    color:white;	
+    text-decoration: underline;
+    justify-content: space-around;
+    align-items: right;
+    
+} 
+
+
+.fa-3x {
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: green;
+    font-weight: 900;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    width: 100%;
+    height: 10%;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 20px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,70,252,1));
+    opacity: 0.6;
+    z-index: 1000;
+}
+
+
+h2 {
+    display: block;
+    font-size: 2em;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin: 1em;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+}
+
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+#hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #0fbeef;
+}
+
+.btn {
+    padding: 0px 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 200px;
+}
+
+iframe { 
+       width: 500px;
+       height: 500px: 
+       margin-left: auto;
+       margin-right: auto;
+      }  
+      
+.product {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+      }
+
+.product > .level {
+    background-color: #aaa;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    font-style: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+@media only screen and (max-device-width : 640px) {
+
+    #video {
+        background-color: red;
+    }
+}
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
